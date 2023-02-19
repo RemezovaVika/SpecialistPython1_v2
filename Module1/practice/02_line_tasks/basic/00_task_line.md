@@ -16,7 +16,14 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+a = int(input ("Введите длину первой стороны: "))
+b = int(input ("Введите длину второй стороны: "))
+c = int(input ("Введите длину третьей стороны: "))
+perimeter = a + b + c
+p_half = perimeter / 2
+area = (p_half*(p_half-a)*(p_half-b)*(p_half-c))**0.5
+print("Периметр трегольника = ", perimeter)
+print ("Площадь трегольника = ", area)
 ```
 
 ---
